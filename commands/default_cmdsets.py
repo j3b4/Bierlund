@@ -15,6 +15,7 @@ own cmdsets by inheriting from them or directly from `evennia.CmdSet`.
 """
 
 from evennia import default_cmds
+from mail import CmdMail
 
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
@@ -52,6 +53,8 @@ class AccountCmdSet(default_cmds.AccountCmdSet):
         #
         # any commands you add below will overload the default ones.
         #
+        self.add(CmdMail)
+        # enable the mail commands at account level
 
 
 class UnloggedinCmdSet(default_cmds.UnloggedinCmdSet):
