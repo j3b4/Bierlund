@@ -1,7 +1,16 @@
 Todo:
 	Freyja's Maze
-		make a button that teleports the player
-		create monsters: zombies and ghosts
-		create a magic sword
-		create a witch and her cabin in the woods
+		Todo
+			create monsters: zombies and ghosts
+				simplify tutorial mob
+			create a magic sword
+			create a witch and her cabin in the woods
+		Done
+			make a button that teleports the player
+				: create switch typeclass for deliberate interactions with obj.
+				: The idea is to be able to create custom objects with
+				: descriptions, command names, and effects.
+				This works for now.
+
+
 	
